@@ -29,11 +29,12 @@ if(m1>m2){
 var d=d2-d1;
  var m=m2-m1;
 var y=y2-y1;
+if(date.gettime()<=today.gettime()){
 
 document.getElementById("age").innerHTML="your  age  is " +y+ " years "+m+" months " +d+ " days";
-}
-    
-document.getElementById("age").innerHTML= "Enter valid date";
+}   
+else{
+    document.getElementById("age").innerHTML= "Enter valid date";
 }
 </script>
 </head>
